@@ -18,7 +18,7 @@ try {
 	Context ctx = (Context) initCtx.lookup("java:comp/env"); //JNDI 기본환경
 
 	//2단계 - 커넥션 풀에서 커넥션 가져오기
-	DataSource ds = (DataSource) ctx.lookup("jdbc/shop");
+	DataSource ds = (DataSource) ctx.lookup("jdbc/bank");
 	Connection conn = ds.getConnection();
 
 	//3단계 - SQL 실행 객체 생성

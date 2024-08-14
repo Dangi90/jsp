@@ -1,4 +1,4 @@
-package customer;
+package shop;
 
 public class CustomerVO {
 	
